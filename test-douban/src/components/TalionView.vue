@@ -1,6 +1,8 @@
 <template>
     <div class="talion-view">
-        this is talionView
+        <div class="header-nav">
+        sdfsdf
+        </div>
     </div>
 </template>
 

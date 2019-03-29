@@ -18,10 +18,10 @@ export default {
 	},
 	components:{HeaderBar,TalionView},
 	methods:{
-		open:()=>{
+		open:function(){
 			this.talion = 'open';
 		},
-		close:()=>{
+		close:function(){
 			this.talion = '';
 		}
 	}
