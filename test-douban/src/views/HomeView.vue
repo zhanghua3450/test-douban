@@ -1,5 +1,22 @@
 <template>
 	<div class="has-header">
-		<h1>This is an about page</h1>
+		<div class="card">
+			<quick-nav></quick-nav>
+		</div>
 	</div>
 </template>
+<script>
+import QuickNav from '../components/QuickNav'
+export default {
+	name:'HomeView',
+	data(){
+		return {}
+	},
+	components:{QuickNav}
+}
+</script>
+<style lang="less" scoped>
+.card{
+	padding: 0 1.8rem;
+}
+</style>

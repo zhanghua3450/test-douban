@@ -46,7 +46,7 @@ a {
   left: 0;
   right: 0;
   top: 0;
-  z-index: 998;
+  
   display: flex;
   align-items: center;
   height: 4.8rem;
