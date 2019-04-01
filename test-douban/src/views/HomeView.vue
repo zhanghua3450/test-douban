@@ -2,17 +2,21 @@
 	<div class="has-header">
 		<div class="card">
 			<quick-nav></quick-nav>
+			<list :items="listData"></list>
 		</div>
 	</div>
 </template>
 <script>
-import QuickNav from '../components/QuickNav'
+import QuickNav from '../components/QuickNav';
+import List from '../components/List'
 export default {
 	name:'HomeView',
 	data(){
-		return {}
+		return {
+			listData:[]
+		}
 	},
-	components:{QuickNav}
+	components:{QuickNav,List}
 }
 </script>
 <style lang="less" scoped>
